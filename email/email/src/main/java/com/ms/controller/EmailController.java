@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping
+@RequestMapping(value = "/email-service")
 public class EmailController {
 
     @Autowired
